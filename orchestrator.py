@@ -91,7 +91,7 @@ orchestrator_data = {
 }
 
 # Save to a file
-output_path = Path("/mnt/data/orchestrator.json")
+output_path = Path("./orchestrator.json")
 with open(output_path, "w") as f:
     json.dump(orchestrator_data, f, indent=2)
 
